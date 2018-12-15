@@ -19,41 +19,39 @@ yarn add random-mua
 ## Usage
 
 ```js
-const RandomMua = require('random-mua')
+const randomMua = require('random-mua')
 
 // desktop user agent
-console.log(RandomMua())
+console.log(randomMua())
 // Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
 
 // mobile user agent
-console.log(RandomMua('mobile'))
+console.log(randomMua('mobile'))
 // Mozilla/5.0 (Linux; Android 7.0; FRD-L04) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36
 ```
 
 
 ## More
 
-From [browser-version-market-share](http://gs.statcounter.com/browser-version-market-share):
+From [globalstats](https://www.w3counter.com/globalstats.php):
 
 ```markdown
-Chrome for Android    >    30%
-Chrome 70.0           >    25%
-Safari iPhone         >    9%
-Safari iPad           >    2%
+Chrome    >    63%
+Safari    >    13%
 ```
 
-Filter:
+Filter in Top 10 Web Browsers:
 
 ```markdown
-Chrome: version >= 70 // 2018-10-16
-Safari: version >= 12 // 2018-09-17
+Chrome version >= 59
+Safari version >= 11
 ```
 
 Count:
 
 ```markdown
-8719 (desktop)
-728 (mobile)
+430 (desktop)
+326 (mobile)
 ```
 
 
