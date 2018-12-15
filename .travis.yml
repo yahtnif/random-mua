@@ -4,10 +4,10 @@ node_js:
   - "8"
 
 install:
-  - npm install
+  - yarn install
 
 before_script:
-  - npm run build
+  - yarn build
 
 script:
-  - npm test
+  - yarn test
