@@ -1,5 +1,9 @@
 # random-mua
 
+[![npm](https://badgen.net/npm/v/random-mua)](https://www.npmjs.com/package/random-mua)
+[![install size](https://badgen.net/packagephobia/install/random-mua)](https://packagephobia.now.sh/result?p=random-mua)
+[![Build Status](https://travis-ci.org/yahtnif/random-mua.svg?branch=master)](https://travis-ci.org/yahtnif/random-mua)
+
 > Random Modern User-Agent.
 
 
@@ -44,6 +48,13 @@ Filter:
 Chrome: version >= 70 // 2018-10-16
 Safari: version >= 12 // 2018-09-17
 ]
+```
+
+Count:
+
+```markdown
+8719 (desktop)
+728 (mobile)
 ```
 
 
