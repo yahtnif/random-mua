@@ -1,6 +1,6 @@
 const randomMua = require('../dist')
 
-const TIMES = 100
+const TIMES = 1000
 
 describe('random-mua', () => {
   it('desktop', () => {
@@ -18,9 +18,10 @@ describe('random-mua', () => {
   it('unique', () => {
     let prev = randomMua()
     let next
-    for (let i = 0; i < TIMES; i++) {
+    for (let i = 0; i < TIMES * 10; i++) {
       next = randomMua()
       expect(prev).not.toEqual(next)
+      prev = next
     }
   })
 })
