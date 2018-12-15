@@ -33,7 +33,7 @@ console.log(RandomMua('mobile'))
 
 ## More
 
-From `http://gs.statcounter.com/browser-version-market-share`:
+From [browser-version-market-share](http://gs.statcounter.com/browser-version-market-share):
 
 ```markdown
 Chrome for Android    >    30%
@@ -47,7 +47,6 @@ Filter:
 ```markdown
 Chrome: version >= 70 // 2018-10-16
 Safari: version >= 12 // 2018-09-17
-]
 ```
 
 Count:
