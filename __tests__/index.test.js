@@ -15,13 +15,12 @@ describe('random-mua', () => {
     }
   })
 
-  // it('unique', () => {
-  //   let prev = randomMua()
-  //   let next
-  //   for(let i=0; i< 50; i++) {
-  //     next = randomMua()
-  //     console.log(i, prev, next)
-  //     expect(i + prev).not.toEqual(i + next)
-  //   }
-  // })
+  it('unique', () => {
+    let prev = randomMua()
+    let next
+    for(let i=0; i< 50; i++) {
+      next = randomMua()
+      expect(i + prev).not.toEqual(i + next)
+    }
+  })
 })
