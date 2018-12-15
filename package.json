@@ -14,9 +14,10 @@
     "random"
   ],
   "scripts": {
-    "build": "rollup --c",
+    "build": "yarn decompress && rollup --c",
+    "decompress": "node src/decompress.js",
     "test": "jest",
-    "version": "rollup --c"
+    "version": "yarn build"
   },
   "lint-staged": {
     "src/*.js": [
@@ -26,8 +27,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && rollup --c && jest",
-      "pre-push": "rollup --c && jest"
+      "pre-commit": "lint-staged && yarn build && yarn test",
+      "pre-push": "yarn build && yarn test"
     }
   },
   "prettier": {
@@ -36,7 +37,8 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "husky": "^1.2.0",
+    "gunzip-file": "^0.1.1",
+    "husky": "^1.2.1",
     "jest": "^23.6.0",
     "lint-staged": "^8.1.0",
     "prettier": "1.15.3",
