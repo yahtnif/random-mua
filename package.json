@@ -1,0 +1,48 @@
+{
+  "name": "random-mua",
+  "description": "Random Modern User-Agent.",
+  "author": "Yahtnif <yahtnif@gmail.com>",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "repository": "yahtnif/random-mua",
+  "homepage": "https://github.com/yahtnif/random-mua",
+  "license": "MIT",
+  "keywords": [
+    "user-agent",
+    "useragent",
+    "browser",
+    "random"
+  ],
+  "scripts": {
+    "build": "rollup --c",
+    "version": "rollup --c"
+  },
+  "lint-staged": {
+    "src/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && jest",
+      "pre-push": "rollup --c"
+    }
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "1.15.3",
+    "rollup": "^0.67.4",
+    "rollup-plugin-cleanup": "^3.0.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-filesize": "^5.0.1",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-uglify": "^6.0.0"
+  }
+}
