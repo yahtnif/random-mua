@@ -9,6 +9,12 @@ describe('random-mua', () => {
     }
   })
 
+  it('m', () => {
+    for (let i = 0; i < TIMES; i++) {
+      expect(randomMua('m')).toMatch(/mobile/i)
+    }
+  })
+
   it('mobile', () => {
     for (let i = 0; i < TIMES; i++) {
       expect(randomMua('mobile')).toMatch(/mobile/i)

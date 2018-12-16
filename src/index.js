@@ -7,8 +7,12 @@ const RANDOM_MOBILE_MAX = UAMobile.length - 1
 const random = new ParkMiller(Math.floor(Math.random() * 100))
 let prev
 
+function isMobile(device) {
+  return device === 'm' || device === 'mobile'
+}
+
 function getRandomUA(device) {
-  let ua = device === 'mobile' ? UAMobile[random.integerInRange(0, RANDOM_MOBILE_MAX)] : UA[random.integerInRange(0, RANDOM_MAX)]
+  let ua = isMobile(device) ? UAMobile[random.integerInRange(0, RANDOM_MOBILE_MAX)] : UA[random.integerInRange(0, RANDOM_MAX)]
   return prev = (prev === ua) ? getRandomUA(device) : ua
 }
 
