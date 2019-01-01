@@ -37,8 +37,10 @@
     "semi": false,
     "singleQuote": true
   },
+  "engines": {
+    "node": ">=8"
+  },
   "devDependencies": {
-    "gunzip-file": "^0.1.1",
     "husky": "^1.2.1",
     "jest": "^23.6.0",
     "lint-staged": "^8.1.0",
@@ -51,6 +53,6 @@
     "rollup-plugin-terser": "^3.0.0"
   },
   "dependencies": {
-    "park-miller": "^1.0.0"
+    "suni": "^0.1.0"
   }
 }

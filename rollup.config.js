@@ -10,7 +10,7 @@ export default {
     file: 'dist/index.js',
     format: 'cjs'
   },
-  external: ['park-miller'],
+  external: ['suni'],
   plugins: [
     clear({
       targets: ['dist']
