@@ -6,7 +6,6 @@
 
 > Random Modern User-Agent.
 
-
 ## Install
 
 ```sh
@@ -14,7 +13,6 @@ yarn add random-mua
 # or
 npm install random-mua
 ```
-
 
 ## Usage
 
@@ -29,7 +27,6 @@ console.log(randomMua())
 console.log(randomMua())
 // Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3622.0 Safari/537.36
 
-
 /**
  * mobile user agent
  */
@@ -39,30 +36,28 @@ console.log(randomMua('mobile'))
 // Mozilla/5.0 (Linux; Android 7.0; FRD-L04) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36
 ```
 
-
 ## More
 
 From [globalstats](https://www.w3counter.com/globalstats.php):
 
 ```markdown
-Chrome    >    63%
-Safari    >    13%
+Chrome > 63%
+Safari > 14%
 ```
 
 Filter in Top 10 Web Browsers:
 
 ```markdown
-Chrome version >= 59
+Chrome version >= 61
 Safari version >= 11
 ```
 
 Count:
 
 ```markdown
-430 (desktop)
-326 (mobile)
+382 (desktop)
+335 (mobile)
 ```
-
 
 ## License
 
