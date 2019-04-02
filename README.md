@@ -1,5 +1,6 @@
 # random-mua
 
+[![996ICU Licence](<https://img.shields.io/badge/license-NPL%20(The%20996%20Prohibited%20License)-blue.svg>)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![npm](https://badgen.net/npm/v/random-mua)](https://www.npmjs.com/package/random-mua)
 [![install size](https://badgen.net/packagephobia/install/random-mua)](https://packagephobia.now.sh/result?p=random-mua)
 [![Build Status](https://travis-ci.org/yahtnif/random-mua.svg?branch=master)](https://travis-ci.org/yahtnif/random-mua)
@@ -61,4 +62,4 @@ Count:
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
+[996ICU](./LICENSE)
