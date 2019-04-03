@@ -1,6 +1,6 @@
 <div align="center">
 	<div>
-		<img width="300" height="300" src="https://github.com/yahtnif/static/raw/master/logo/random-mua.svg?sanitize=true" alt="random-mua">
+		<img width="300" src="https://github.com/yahtnif/static/raw/master/logo/random-mua.svg?sanitize=true" alt="random-mua">
 	</div>
 </div>
 
@@ -66,4 +66,4 @@ Count:
 
 ## License
 
-[996ICU](./LICENSE)
+[Anti 996](./LICENSE)
