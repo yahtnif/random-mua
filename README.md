@@ -5,6 +5,7 @@
 </div>
 
 [![npm](https://badgen.net/npm/v/random-mua)](https://www.npmjs.com/package/random-mua)
+[![gzip size](https://img.badgesize.io/https://cdn.jsdelivr.net/npm/random-mua/dist/index.js?compression=gzip)](https://cdn.jsdelivr.net/npm/random-mua/dist/index.js)
 [![install size](https://badgen.net/packagephobia/install/random-mua)](https://packagephobia.now.sh/result?p=random-mua)
 [![Build Status](https://travis-ci.org/yahtnif/random-mua.svg?branch=master)](https://travis-ci.org/yahtnif/random-mua)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
@@ -43,25 +44,25 @@ console.log(randomMua('mobile'))
 
 ## More
 
-From [globalstats](https://www.w3counter.com/globalstats.php):
+From [Browser Market Share Worldwide](https://gs.statcounter.com/browser-market-share):
 
 ```markdown
-Chrome > 63%
-Safari > 14%
+Chrome > 64%
+Safari > 16%
 ```
 
-Filter in Top 10 Web Browsers:
+From [Browser Version Market Share Worldwide](https://gs.statcounter.com/browser-version-market-share) and [Top 10 Web Browsers](https://www.w3counter.com/globalstats.php):
 
 ```markdown
-Chrome version >= 61
-Safari version >= 11
+Chrome version >= 70
+Safari version >= 12
 ```
 
 Count:
 
 ```markdown
-382 (desktop)
-335 (mobile)
+226 (desktop)
+296 (mobile)
 ```
 
 ## License
